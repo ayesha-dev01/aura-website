@@ -81,7 +81,7 @@ export default function AboutPage() {
           <div className="lg:col-span-6">
             <div className="relative h-[450px] md:h-[550px] w-full bg-zinc-950 rounded-sm overflow-hidden border border-zinc-900/50 group">
               <Image 
-                src="/gellary/kdhai/work-img.png" 
+                src="/gallery/kdhai/work-img.png" 
                 alt="Aura Atelier Craftsmanship Since 2001"
                 fill
                 className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
