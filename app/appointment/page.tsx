@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect, Suspense } from 'react';
-import emailjs from '@emailjs/browser';
+import * as emailjs from '@emailjs/browser';
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 
