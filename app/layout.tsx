@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import "./globals.css"; 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppBtn from "@/components/WhatsApp"; // 1. WhatsApp Button import kiya
 
 export const metadata: Metadata = {
   title: "Aura Atelier | Bespoke Luxury Couture & Bridal Wear",
@@ -34,7 +35,6 @@ export const metadata: Metadata = {
   },
 };
 
-// YEH WALA EXPORT MISSING THA JIS KI WAJAH SE APP CRASH HUA:
 export default function RootLayout({
   children,
 }: {
@@ -46,6 +46,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <WhatsAppBtn /> {/* 2. WhatsApp Button yahan inject kiya */}
       </body>
     </html>
   );
